@@ -355,9 +355,9 @@ footer{
         margin: 0   ;
         width: 100vw;
       }
-      .menu-bottom > .check{
+     .menu-bottom > .check{
          display: none; 
-      }
+      } 
 
       .menu-bottom > label > span {
         display: block;
@@ -365,6 +365,7 @@ footer{
         color: #000;
         font-size: 30px;
         cursor: pointer;
+        z-index: 1000;
       }
 
      .menu-bottom > ul{
