@@ -1,0 +1,1104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    height: 13vh;
+}
+
+header > img {
+    height: 100%;
+    width: 150px;
+    position: relative;
+    top: -97px;
+    left: 50px;
+    z-index: 100;
+}
+
+header > .navbar1{
+    height: 40%;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+}
+
+.navbar1 > .titre span{
+    font-size: 12px;
+    color: gray;
+}
+
+.navbar1 > .menu-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-top > div {
+    margin-left: 50px;
+    margin-top: -30px;
+    color: red;
+    font-size: 50px;
+}
+
+.navbar1 > .menu-top ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu-top > ul > li {
+  margin-left: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: gray;
+}
+
+.menu-top > ul > li:nth-child(5) {
+  border: 1px solid white;
+}
+
+.navbar2 > .menu-bottom{
+    margin: 0;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;
+}
+
+.menu-bottom > span {
+    display: none;
+}
+
+ .menu-bottom > ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+ 
+.menu-bottom > ul > li {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+} 
+
+.menu-bottom > ul > li:hover {
+    background-color: #efefef75;
+}
+
+
+.menu-bottom > .check{
+    display: none; 
+ }
+
+ input#check {
+    display: none;
+}
+
+.navbar2 .icone{
+    display: flex;
+    gap: 0px;
+}
+
+.icone div{
+    padding: 14px;    
+}
+
+.icone div:nth-child(2){
+    display: flex;
+    flex-direction: row;
+}
+
+.icone div:hover{
+    background-color: #efefefe0;
+}
+
+.icone div .div:hover{
+    background-color: #ff7900;
+}
+
+.icone .div{
+    width: 0.01em;
+    height: 0.01em;
+    background-color: #ff7900;
+    font-size: 13px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    position: relative;
+    top: -20%;
+    right: 15.6%;
+    z-index: 100;
+}
+
+.container{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container .container-top{
+    background-image: url("images/bg.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
+    height: 100vh;
+    width: 100%;
+}
+
+.container-top .logo-puma {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-top .logo-puma::before{
+    content: '';
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -40px;
+    background-color: #ff7900;
+    height: 4px;
+    width: 110px;
+
+}
+
+.container-top .logo-puma img{
+    margin-top: 100px;
+    width: 150px;
+    height: 100px;
+}
+
+
+.container-top .titre {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .container-top > .titre > h1 {
+    color: #fff;
+    font-size: 50px;
+ }
+
+ .container-top > .titre > h6 {
+    margin-top: 15px;
+    color: #ffffff9d;
+    font-size: 16px;
+ }
+
+ .container-top .box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+ .container-top .box button {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+ }
+
+ .container-top .box > div {
+    margin-top: 100px;
+    display: flex;
+    gap: 15px;
+ }
+
+ .container-top .box > div > div{
+    background-color: #efefef8f;
+    width: 5px;
+    height: 5px;
+    border-radius: 10px;
+ }
+
+ .container-top .box > div > div:nth-child(2){
+    background-color: #fff;
+ }
+
+ .container-top .box button:hover {
+    background-color: #efefef25;
+ }
+
+.container .container-bottom {
+    height: 45vh;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .container-bottom .image {
+    margin-top: -120px;
+}
+
+.container-bottom .image img {
+    margin-left: -10px;
+    z-index: 100;
+}
+
+.container-bottom .titre-bottom {
+    margin-top: 100px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+footer{
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+}
+
+@media screen and (max-width:413px) {
+    header {
+        margin: 0;
+        padding: 0;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > .navbar1{
+        display: none;
+     }
+
+     header > img {
+        display: none;
+     }
+
+     .navbar2 .icone {
+        display: flex;
+        gap: 0px;
+        margin-left: 25%;
+    }
+
+    .container .container-top{
+        border: 1px solid red;
+        background-image: url("images/bg.jpeg");
+        height: 100%;
+        width: 100%;
+        z-index: 100;
+    }
+
+     .container-top .logo-puma {
+        margin-top: -40px;
+      }
+
+      .container-top .logo-puma img{
+        margin-top: 100px;
+        width: 150px;
+        height: 70px;
+    }
+
+    .container-top .logo-puma::before {
+        content: '';
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -40px;
+        background-color: #ff7900;
+        height: 4px;
+        width: 110px;
+    }
+
+      .container-top > .titre > h1 {
+        margin-top: -40px;
+        font-size: 20px;
+     }
+
+    .container-top > .titre > h6 {
+        margin-top: 0px;
+        font-size: 8px;
+    }
+
+    .container-top .box button {
+        margin-top: -40px;
+        padding: 5px 8px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        font-size: 9px;
+     }
+
+     .container-top .box > div {
+        margin-top: 14px;
+        display: flex;
+        gap: 15px;
+     }
+
+      .menu-bottom {
+        margin: 0   ;
+        width: 100vw;
+      }
+      .menu-bottom > .check{
+         display: none; 
+      }
+
+      .menu-bottom > label > span {
+        display: block;
+        border: 1px solid black;
+        color: #000;
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+     .menu-bottom > ul{
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(4px);
+        margin-top: 700px;
+        width: 100%;
+        height: 100vh;
+        font-size: 20px;
+        position: absolute;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        transition: all .5S ;
+     }
+
+     #check:checked ~ ul{
+        left: 0;
+     }
+
+     .container-bottom .image img {
+        margin-top: 200px;
+        margin-left: -10px;
+        width: 150px;
+        z-index: 100;
+    }
+
+    .container .container-bottom {
+        height: 45vh;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    } 
+}
+
+@media screen and (max-width:466px) and (min-width:414px) {
+    header {
+        margin: 0;
+        padding: 0;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > .navbar1{
+        display: none;
+     }
+
+     header > img {
+        display: none;
+     }
+
+     .navbar2 .icone {
+        display: flex;
+        gap: 0px;
+        margin-left: 25%;
+    }
+
+     .container-top .logo-puma {
+        margin-top: -40px;
+      }
+
+      .container-top .logo-puma img{
+        margin-top: 100px;
+        width: 150px;
+        height: 70px;
+    }
+
+    .container-top .logo-puma::before {
+        content: '';
+        position: absolute;
+        margin-top: 200px;
+        margin-left: -40px;
+        background-color: #ff7900;
+        height: 4px;
+        width: 110px;
+    }
+
+      .container-top > .titre > h1 {
+        margin-top: -40px;
+        font-size: 20px;
+     }
+
+    .container-top > .titre > h6 {
+        margin-top: 0px;
+        font-size: 8px;
+    }
+
+    .container-top .box button {
+        margin-top: -40px;
+        padding: 5px 8px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+        font-size: 9px;
+     }
+
+     .container-top .box > div {
+        margin-top: 14px;
+        display: flex;
+        gap: 15px;
+     }
+
+      .menu-bottom {
+        margin: 0   ;
+        width: 100vw;
+      }
+      .menu-bottom > .check{
+         display: none; 
+      }
+
+      .menu-bottom > label > span {
+        display: block;
+        border: 1px solid black;
+        color: #000;
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+     .menu-bottom > ul{
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(4px);
+        margin-top: 700px;
+        width: 100%;
+        height: 100vh;
+        font-size: 20px;
+        position: absolute;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        transition: all .5S ;
+     }
+
+     #check:checked ~ ul{
+        left: 0;
+     }
+
+     .container-bottom .image img {
+        margin-top: 100px;
+        margin-left: -10px;
+        width: 150px;
+        z-index: 100;
+    }
+
+    .container .container-bottom {
+        margin-top: -350px;
+        height: 45vh;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:724px) and (min-width:467px) {
+    header {
+        margin: 0;
+        padding: 0;
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header > .navbar1{
+        display: none;
+     }
+
+     header > img {
+        display: none;
+     }
+
+     .navbar2 .icone {
+        display: flex;
+        gap: 0px;
+        margin-left: 25%;
+    }
+
+     .container-top .logo-puma {
+        margin-top: -40px;
+      }
+
+      .container-top > .titre > h1 {
+        margin-top: -20px;
+        font-size: 20px;
+     }
+
+    .container-top > .titre > h6 {
+        font-size: 8px;
+    }
+
+    .container-top .box button {
+        margin-top: -30px;
+        padding: 10px 15px;
+        border: 1px solid #fff;
+        background-color: transparent;
+        color: #fff;
+     }
+
+     .container-top .box > div {
+        margin-top: 20px;
+        display: flex;
+        gap: 15px;
+     }
+
+      .menu-bottom {
+        margin: 0   ;
+        width: 100vw;
+      }
+
+    input#check {
+        display: none;
+    }
+
+      .menu-bottom > label > span {
+        display: block;
+        border: 1px solid black;
+        color: #000;
+        font-size: 30px;
+        cursor: pointer;
+      }
+
+     .menu-bottom > ul{
+        background-color: rgba(255, 255, 255, 0.20);
+        backdrop-filter: blur(4px);
+        margin-top: 700px;
+        width: 100%;
+        height: 100vh;
+        font-size: 20px;
+        position: absolute;
+        left: -100%;
+        display: flex;
+        flex-direction: column;
+        z-index: 100;
+        transition: all .5S ;
+     }
+
+     #check:checked ~ ul{
+        left: 0;
+     }
+
+     .container-bottom .image img {
+        margin-top: 100px;
+        margin-left: -10px;
+        width: 200px;
+        z-index: 100;
+    }
+
+    .container .container-bottom {
+        margin-top: -250px;
+        height: 45vh;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width:767px) and (min-width:725px){
+    header{
+        margin: 0; 
+        height: 57px;
+    }
+
+     header > .navbar1{
+        display: none;
+     }
+
+     header > img {
+        height: 110%;
+        width: 80px;
+        position: relative;
+        top: -60px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    .container-top .logo-puma {
+      margin-top: -20px;
+    }
+
+    .navbar2 > .menu-bottom{
+        margin: 0;
+        position: relative;
+        padding-left: 150px;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+
+    .menu-bottom > .check{
+        display: none; 
+     }
+
+     input#check {
+        display: none;
+    }
+
+    label.span {
+        display: none;
+    }
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    .menu-bottom > ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .menu-bottom > ul > li {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+
+    .menu-bottom > span {
+        display: none;
+    }
+    
+    .container-bottom .image img {
+        margin-bottom: 150px;
+        margin-left: -10px;
+        width: 300px;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width:807px) and (min-width:768px) {
+
+    header {
+        margin: 0;
+        padding: 0;
+        height: vh;
+    }
+
+    header > img {
+        height: 120%;
+        width: 80px;
+        position: relative;
+        top: -85px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    header > .navbar1{
+        position: relative;
+        padding-left: 190px;
+        height: 40%;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .navbar1 > .titre span{
+        display: none;
+    }
+
+    .navbar1 .menu-top > ul > li {
+        margin-left: -100px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 9px;
+        color: gray;
+      }
+
+      .menu-bottom > .check{
+        display: none; 
+     }
+
+     .menu-bottom > .span {
+        display: none;
+    }
+
+    .container-top .box > div {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .navbar2 > .menu-bottom{
+        margin: 0;
+        position: relative;
+        padding-left: 150px;
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    .menu-bottom > ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .menu-bottom > ul > li {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+
+    .container-bottom .image img {
+        margin-bottom: 150px;
+        margin-left: -10px;
+        width: 300px;
+        z-index: 100;
+    }
+}
+
+@media screen and (max-width:840px) and (min-width:808px) {
+    header {
+        margin: 0;
+        padding: 0;
+        height: 10vh;
+    }
+
+    header > img {
+        height: 126%;
+        width: 80px;
+        position: relative;
+        top: -85px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    header > .navbar1{
+        padding-left: 190px;
+        height: 40%;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .navbar1 > .titre span{
+        display: none;
+    }
+
+    .navbar1 .menu-top > ul > li {
+        margin-left: -100px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 9px;
+        color: gray;
+      }
+
+    .container-top .box > div {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .navbar2 > .menu-bottom{
+        margin: 0;
+        padding-left: 150px;
+        height: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    .menu-bottom > ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .menu-bottom > ul > li {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+
+    input#check {
+        display: none;
+    }
+
+    label.span {
+        display: none;
+    }
+
+    .container-bottom .image img {
+        margin-bottom: 150px;
+        margin-left: -10px;
+        width: 300px;
+        z-index: 100;
+    }
+   
+}
+
+@media screen and (max-width:892px) and (min-width: 841px) {
+    header {
+        margin: 0;
+        padding: 0;
+        height: 10vh;
+    }
+
+    header > img {
+        height: 107%;
+        width: 80px;
+        position: relative;
+        top: -85px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    header > .navbar1{
+        padding-left: 190px;
+        height: 40%;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .navbar1 > .titre span{
+        display: none;
+    }
+
+    .navbar1 .menu-top > ul > li {
+        margin-left: -100px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        color: gray;
+      }
+
+    .container-top .box > div {
+        margin-top: 40px;
+        display: flex;
+        gap: 15px;
+    }
+    
+    .navbar2 > .menu-bottom{
+        padding-left: 150px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    .menu-bottom > ul {
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+    }
+
+    .menu-bottom > ul > li {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+
+    input#check {
+        display: none;
+    }
+
+    label.span {
+        display: none;
+    }
+
+    .container-bottom .image img {
+        margin-bottom: 150px;
+        margin-left: -10px;
+        width: 300px;
+        z-index: 100;
+    }
+   
+}
+
+
+@media screen and (max-width:1070px) and (min-width:893px) {
+
+
+    header > img {
+        height: 98%;
+        width: 100px;
+        position: relative;
+        top: -90px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    header > .navbar1{
+        padding-left: 190px;
+        height: 40%;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .navbar1 > .titre span{
+        font-size: 8px;
+        color: gray;
+    }
+
+    .navbar1 .menu-top > ul > li {
+        margin-left: 10px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 600;
+        font-size: 10px;
+        color: gray;
+      }
+    
+    .navbar2 > .menu-bottom{
+        margin: 0;
+        padding-left: 150px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    input#check {
+        display: none;
+    }
+
+    label.span {
+        display: none;
+    }
+
+    .menu-bottom > ul > li {
+        padding: 15px;
+        font-size: 12px;
+        font-weight: bold;
+    } 
+
+    .container-bottom .image img {
+        margin-bottom: 150px;
+        margin-left: -10px;
+        width: 300px;
+        z-index: 100;
+    }
+   
+}
+
+@media screen and (max-width:1375px) and (min-width:1071px) {
+
+    header > img {
+        height: 104%;
+        width: 150px;
+        position: relative;
+        top: -105px;
+        left: 50px;
+        z-index: 100;
+    }
+
+    header > .navbar1{
+        padding-left: 190px;
+        height: 40%;
+        background-color: #000;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    }
+
+    .navbar1 > .titre span{
+        font-size: 10px;
+        color: gray;
+    }
+
+    input#check {
+        display: none;
+    }
+
+    label.span {
+        display: none;
+    }
+    
+    .menu-bottom > span {
+        display: none;        
+    }
+
+    .navbar2 > .menu-bottom{
+        padding-left: 150px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+    } 
+}
